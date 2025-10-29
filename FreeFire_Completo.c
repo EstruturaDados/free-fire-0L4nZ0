@@ -465,6 +465,6 @@ int main()
     } while (controle_menu != Sair_menu);
     
 
-
+    free(inventario);
     return 0;
 }
